@@ -1,0 +1,53 @@
+Rotating Objects:
+http://www.dreamincode.net/forums/topic/69246-rotating-objects/
+http://java.sun.com/products/java-media/2D/samples/suite/Transforms/TransformAnim.java
+
+Mouse Events:
+http://download.oracle.com/javase/tutorial/uiswing/examples/events/MouseEventDemoProject/src/events/MouseEventDemo.java
+
+http://www.rgagnon.com/javadetails/java-0236.html
+
+Mouse Position:
+http://www.javaprogrammingforums.com/java-code-snippets-tutorials/390-how-get-mouse-position.html
+
+Rotaing Image + anti-aliasing:
+http://www.java2s.com/Code/Java/2D-Graphics-GUI/Arotatingandscalingrectangle.htm
+
+Moving an Image:
+http://www.roseindia.net/tutorial/java/swing/moveImage.html
+
+Scaling an Image:
+http://www.rgagnon.com/javadetails/java-0243.html
+
+Rotating with g2D:
+STACK OVERFLOW!!!!!
+
+File Choser:
+http://download.oracle.com/javase/tutorial/uiswing/components/filechooser.html
+
+File Chooser Filtering:
+http://www.exampledepot.com/egs/javax.swing.filechooser/Filter.html
+
+Setting File Chooser Dirrector to Project Folder:
+http://www.rgagnon.com/javadetails/java-0370.html
+
+Solving Strange errors produced by ^:
+http://stackoverflow.com/questions/4766227/jfile-chooser-throwing-errors-before-use-only-sometimes
+
+Text Area:
+http://download.oracle.com/javase/tutorial/uiswing/examples/components/TextDemoProject/src/components/TextDemo.java
+
+Finding the location of a File:
+http://www.java-forums.org/awt-swing/29485-how-retrieve-path-filechooser.html
+
+Sound:
+http://objectmix.com/java/74100-play-sound-looped-while-program-running.html
+//http://java.ittoolbox.com/groups/technical-functional/java-l/sound-in-an-application-90681 --playSoundFile() Method
+http://stackoverflow.com/questions/4708392/how-to-pass-information-into-new-thread
+http://stackoverflow.com/questions/4708254/how-to-play-audio-in-java-application
+
+Transparent pannel BG:
+http://stackoverflow.com/questions/54926/make-a-jpanel-not-draw-its-background-transparent
+
+KeyListener to pannel:
+http://stackoverflow.com/questions/286727/java-keylistener-for-jframe-is-being-unresponsive

@@ -1,0 +1,7 @@
+LaunchSound: Sounds\Launch1.wav
+LaunchSound: Sounds\Launch2.wav
+LaunchSound: Sounds\Launch3.wav
+ExplodeSound: Sounds\Explode1.wav
+ExplodeSound: Sounds\Explode2.wav
+SelectSound: Sounds\select.wav
+VictorySound: Sounds\win.wav

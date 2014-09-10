@@ -1,0 +1,10 @@
+Environments/mushroomkingdom.env
+Environments/bowserlair.env
+Environments/bridge.env
+Environments/dietoad.env
+Environments/mushroomheights.env
+Environments/omgsomuch.env
+Environments/tjdemise.env
+Environments/underground.env
+Environments/underwater.env
+Environments/galaxy1.env
