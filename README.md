@@ -60,6 +60,29 @@ DestructableObject: a class much like the Boss class, minus a few variables
 SoundPlayer: a class of mainly static methods so it you don’t need to create an instance of to use. It 
 plays once or loops sound
 
+Bugs
+====
+This game is fairly robust, and thanks to methods of limiting user input in game (such as sliders), 
+its pretty hard to crash. It does have a weak point though; file I/O. The Game is fairly forgiving, and can 
+even forgive the deletion of every text file you will find in the root of the project folder. When 
+“GameSettings.txt” is missing, you simply lose any extras such as sound, and the game will mock you 
+through a SOPL. When “Scores.txt” is missing, the game will generate a new one as soon as there is 
+content for it. When “worlds.txt” is missing, the game will make a new one, and populate it with a 
+pointer to “MushroomKingdom.env”. 
+
+There are really only two ways to cause any sort of problem you would notice in game (The 
+console will sometimes output errors for debugging, but maintain playability). The first was is to have 
+bad content in one of the various input files. Bad content includes a number of things. It could be a 
+pointer to a file that doesn’t exist, such as a nonexistent image referenced in an .env file. It could also be
+a typo in the tags before each line of input such as “BossImage:” which are used to identify the following
+input. Another form of bad input would be out of order lines. For example, after the program see’s the 
+tag “BossImage:” it assumes the following lines will provide the X and Y coordinates, so if these are 
+strings, there will be an input mismatch exception.
+
+The only other way (that we know of) to crash the program is to have a missing 
+“MushroomKingdom.env” file. This is the one file that the program defaults to when all else fails. If this 
+file is missing, and your “worlds.txt” file is missing, you’re going to receive blank play screen.
+
 Notes to Future Programmers
 ===========================
 1) Make the I/O more robust
@@ -119,6 +142,7 @@ Although the game doesn’t lag, I have a bit of an idea for better efficiency. 
 buffering, but only with the images that are static (unmoving). Things like Mario and the Boss could be 
 painted on to one background image, when would be updated from the original background whenever a
 boss dies etc. This would reduce the amount of code in the overloaded paintComponent() method.
+
 10) Aesthetics
 A few things in the game could be cleaned up visually. Custom buttons would make it look a bit more 
 polished. Also, when the projectiles fire, the image always looks the same, It would be significantly 
